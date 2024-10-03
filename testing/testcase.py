@@ -7,7 +7,7 @@ def func(n):
     if n ==0:
         return 0
     elif n==1:
-        return 1
+        return 1 #this is done
     else:
         return (func(n-2)+func(n-1))
     
