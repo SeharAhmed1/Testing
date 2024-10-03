@@ -15,3 +15,10 @@ for x in range(10):
     print(func(x), end = ", ")
 
 (func(10))
+
+def func2(n):
+    if n in "abcde":
+        return "yeeeey"
+    else:
+        return "naaayyy"
+print(func2("b"))
